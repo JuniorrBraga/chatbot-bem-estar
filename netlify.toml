@@ -1,0 +1,13 @@
+# Arquivo de configuração do Netlify
+
+[build]
+  # Pasta onde está o seu site estático (HTML, CSS, JS)
+  publish = "public"
+  # Pasta onde estão as suas Serverless Functions
+  functions = "netlify/functions"
+
+# Regra de redirecionamento para fazer a nossa API funcionar
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
