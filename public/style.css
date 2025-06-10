@@ -1,0 +1,22 @@
+/* Custom styles to enhance the UI */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.chat-box {
+    scroll-behavior: smooth;
+}
+
+.message-bubble {
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    transform: scale(0.95);
+    opacity: 0;
+    animation: pop-in 0.3s forwards;
+}
+
+@keyframes pop-in {
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
