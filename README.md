@@ -60,7 +60,7 @@ A estrutura foi adaptada para a arquitetura serverless da Netlify.
 ├── .gitignore           # Ignora node_modules e .env
 ├── netlify.toml         # Arquivo de configuração para o deploy no Netlify
 └── package.json         # Define as dependências da função serverless
-
+```
 
 ## 🚀 Como Fazer o Deploy no Netlify (Recomendado)
 
