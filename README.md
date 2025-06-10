@@ -48,6 +48,7 @@ A arquitetura do projeto utiliza **Netlify Functions** para servir como um backe
 A estrutura foi adaptada para a arquitetura serverless da Netlify.
 
 
+```text
 /aura-chatbot/
 ├── netlify/
 │   └── functions/
