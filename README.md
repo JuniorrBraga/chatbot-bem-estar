@@ -8,10 +8,6 @@ Uma interface de chat inteligente projetada para oferecer um espaço seguro de c
 
 </br>
 
-<!-- 
-    IMPORTANTE: Grave um GIF curto mostrando o chatbot em ação e substitua o link abaixo.
-    Ferramentas como ScreenToGif (Windows) ou Kap (Mac) são ótimas para isso.
--->
 <p align="center">
   https://aura-chatbot.netlify.app
 </p>
