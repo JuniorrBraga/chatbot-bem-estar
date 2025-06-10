@@ -49,7 +49,7 @@ A estrutura foi adaptada para a arquitetura serverless da Netlify.
 
 
 ```text
-/aura-chatbot/
+/chatbot-bem-estar/
 ├── netlify/
 │   └── functions/
 │       └── chat.js      # A função serverless que atua como nosso backend
