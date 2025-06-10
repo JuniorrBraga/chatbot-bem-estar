@@ -109,5 +109,5 @@ Distribuído sob a licença MIT.
 
 ---
 <p align="center">
-  Feito com ❤️ por [Seu Nome Aqui]
+  Feito com ❤️ por Luciano Junior
 </p>
