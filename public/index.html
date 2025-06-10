@@ -16,11 +16,18 @@
     <!-- Link para a folha de estilos externa -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-100 flex items-center justify-center h-screen">
+<!-- A tag <body> agora é mais simples -->
+<body class="bg-gray-100">
 
-    <div class="w-full max-w-md h-full sm:h-[90vh] sm:max-h-[700px] flex flex-col bg-white shadow-2xl rounded-2xl overflow-hidden">
+    <!-- 
+        MUDANÇAS APLICADAS AQUI:
+        - O container principal agora ocupa h-screen (100% da altura da tela) em celulares.
+        - As classes para centralização e bordas arredondadas agora só se aplicam em telas maiores (sm:).
+        - mx-auto centraliza o container horizontalmente.
+    -->
+    <div class="w-full max-w-md mx-auto h-screen sm:h-[90vh] sm:max-h-[700px] sm:my-[5vh] flex flex-col bg-white shadow-2xl sm:rounded-2xl overflow-hidden">
         
-        <!-- Chat Header -->
+        <!-- Chat Header (sem alterações) -->
         <header class="bg-indigo-600 text-white p-4 flex items-center shadow-md z-10">
             <div class="relative w-12 h-12">
                  <img class="w-12 h-12 rounded-full" src="https://placehold.co/100x100/FFFFFF/4F46E5?text=AI" alt="Avatar do Assistente">
@@ -32,24 +39,22 @@
             </div>
         </header>
 
-        <!-- Chat Messages Area -->
+        <!-- Chat Messages Area (sem alterações) -->
         <main id="chat-box" class="flex-1 p-6 space-y-4 overflow-y-auto bg-gray-50">
             <!-- As mensagens serão inseridas dinamicamente aqui -->
         </main>
 
-        <!-- Input Area -->
+        <!-- Input Area (sem alterações) -->
         <footer class="bg-white p-4 border-t border-gray-200">
             <form id="chat-form" class="flex items-center space-x-3">
                 <input type="text" id="user-input" placeholder="Converse com a IA..." autocomplete="off" class="flex-1 w-full px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-500 transition-shadow duration-200" required>
                 
-                <!-- Botão para solicitar o resumo final -->
                 <button type="button" id="request-summary-btn" class="bg-green-600 text-white p-3 rounded-full hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-transform duration-200 active:scale-95" title="Pedir Resumo Final">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 </button>
 
-                <!-- Botão de Enviar Mensagem -->
                 <button type="submit" id="send-message-btn" class="bg-indigo-600 text-white p-3 rounded-full hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition-transform duration-200 active:scale-95">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.428A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
@@ -59,7 +64,7 @@
         </footer>
     </div>
 
-    <!-- Link para o script externo -->
+    <!-- Link para o script externo (sem alterações) -->
     <script src="script.js"></script>
 </body>
 </html>
