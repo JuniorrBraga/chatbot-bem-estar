@@ -21,11 +21,11 @@
 
     <!-- 
         MUDANÇAS APLICADAS AQUI:
-        - O container principal agora ocupa h-screen (100% da altura da tela) em celulares.
+        - O container principal agora ocupa h-dvh (altura da viewport dinâmica) para se ajustar ao teclado do celular.
         - As classes para centralização e bordas arredondadas agora só se aplicam em telas maiores (sm:).
         - mx-auto centraliza o container horizontalmente.
     -->
-    <div class="w-full max-w-md mx-auto h-screen sm:h-[90vh] sm:max-h-[700px] sm:my-[5vh] flex flex-col bg-white shadow-2xl sm:rounded-2xl overflow-hidden">
+    <div class="w-full max-w-md mx-auto h-dvh sm:h-[90vh] sm:max-h-[700px] sm:my-[5vh] flex flex-col bg-white shadow-2xl sm:rounded-2xl overflow-hidden">
         
         <!-- Chat Header (sem alterações) -->
         <header class="bg-indigo-600 text-white p-4 flex items-center shadow-md z-10">
