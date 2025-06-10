@@ -13,7 +13,7 @@ Uma interface de chat inteligente projetada para oferecer um espaço seguro de c
     Ferramentas como ScreenToGif (Windows) ou Kap (Mac) são ótimas para isso.
 -->
 <p align="center">
-  <img src="https://i.imgur.com/link_para_seu_gif_ou_imagem_aqui.gif" alt="Demonstração do Aura em ação" width="400px">
+  <img src="https://imgur.com/oqlTikA" alt="Demonstração do Aura em ação" width="400px">
 </p>
 
 ## ✨ Sobre o Projeto
